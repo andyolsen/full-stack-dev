@@ -1,0 +1,15 @@
+server:
+    address: 192.168.1.100
+    port: 8000
+---
+spring:
+    profiles: development
+server:
+    address: 127.0.0.1
+    port: 8080
+---
+spring:
+    profiles: production
+server:
+    address: 192.168.1.120
+    port: 8888

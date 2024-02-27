@@ -1,0 +1,22 @@
+nav {
+    background-color: #1199ff;
+    color: white;
+    padding: 15px 5px;
+    margin-bottom: 1px;
+}
+
+nav a {
+    background-color: #1199ff;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a.active {
+    color: orange;
+}
+
+nav a:hover {
+    color: #1199ff;
+    background-color: white;
+}

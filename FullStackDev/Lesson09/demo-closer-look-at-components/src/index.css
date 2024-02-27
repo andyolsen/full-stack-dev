@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.panelA, .panelB, .panelC, .panelD {
+  background-color: rgb(26, 132, 219);
+  color: white;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.panelA {
+  background-color: rgb(26, 132, 219);
+}
+
+.panelB {
+  background-color: rgb(18, 158, 88);
+}
+
+.panelC {
+  background-color: rgb(219, 129, 26);
+}
+
+.panelD {
+  background-color: rgb(243, 84, 110);
+}

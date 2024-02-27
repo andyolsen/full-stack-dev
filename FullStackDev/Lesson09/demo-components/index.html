@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Using Components in React</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+  <div id="app-root"></div>
+
+  <script>
+
+    // Uncomment either the App class-based component or the App functional component...
+
+    class App extends React.Component {
+      render() {
+        return React.createElement(
+          'h1', 
+          {'title': 'My message'},
+          'Hello from App class-based component!'
+        )
+      }
+    }
+    
+    /*
+    function App() {
+      return React.createElement(
+        'h1', 
+        {'title': 'My message'},
+        'Hello from App functional component!'
+      )
+    }
+    */
+
+    const elem = React.createElement(App, null, null)
+
+    ReactDOM.render(elem, document.getElementById('app-root'))
+
+  </script>
+
+</body>
+</html>

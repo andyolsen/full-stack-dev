@@ -1,0 +1,21 @@
+.div.container {
+    position: relative;
+	color: white;
+	padding: 0px;
+}
+    
+div.centered {
+    color: white;
+    font-size: 6em;
+    font-weight: 700;
+    opacity: 60%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
